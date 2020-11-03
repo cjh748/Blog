@@ -1,0 +1,18 @@
+body {
+    font-family: $font-productive;
+    color: $color-coal;
+    margin: 0;
+    line-height: 1.5rem;
+    height: 100%;
+}
+
+a {
+    &:active, &:visited, &:focus, &:focus-within, &:focus-visible, &:link {
+        color: inherit;
+        text-decoration:none;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+} 
