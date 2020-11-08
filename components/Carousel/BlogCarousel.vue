@@ -3,9 +3,7 @@
         <carousel 
             class="carousel" 
             :per-page-custom="[[1140, 3],[800, 2], [0, 1]]"
-            :autoplay=true
-            :autoplay-hover-pause=true
-            :scroll-per-page=true
+            :scroll-per-page=false
             :loop=true
         >
             <slide 

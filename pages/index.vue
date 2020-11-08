@@ -1,9 +1,9 @@
 <template>
   <div>
     <div>
-      <dynamic-graph />
       <animated-title v-if="categories.length > 0" :categories=categories></animated-title>
       <blog-carousel></blog-carousel>
+      <!-- <dynamic-graph /> -->
     </div>
   </div>
 </template>
@@ -22,6 +22,11 @@ export default Vue.extend({
     BlogCarousel,
     AnimatedTitle,
     DynamicGraph
+  },
+  head() {
+    return {
+      title: 'Blogs'
+    }
   },
   data() {
     return {

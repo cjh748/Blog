@@ -2,8 +2,8 @@
   <div>
       <div class="main">
         <Introduction />
-        
         <div class="main-portfolio">
+          <navigation-bar></navigation-bar>
           <Nuxt />
         </div>  
       </div>
@@ -86,7 +86,8 @@ html {
   height: 100%;
 
   &-portfolio {
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
     width: calc(100% - 242px);
   }
 }
